@@ -1,0 +1,25 @@
+.message{
+    border: 1px solid #ccc;
+    padding: 10px;
+    color:#333;
+}
+
+.success{
+    @extend .message;
+    color:green;
+}
+
+.error{
+    @extend .message;
+    color: red;
+}
+
+.warning{
+    @extend .message;
+    color: yellow;
+}
+
+.info{
+    @extend .message;
+    color:blue;
+}

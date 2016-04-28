@@ -1,0 +1,46 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+.message, .success, .error, .warning, .info {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+.success {
+  color: green; }
+
+.error {
+  color: red; }
+
+.warning {
+  color: yellow; }
+
+.info {
+  color: blue; }
+
+nav ul {
+  margin: 0;
+  padding: 6px;
+  list-style: none; }
+
+nav li {
+  display: inline-block; }
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+body {
+  background-color: #333; }
+
+.box {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #333; }

@@ -1,0 +1,34 @@
+//Scss setup
+@import 'variables';
+@import 'mixins';
+
+//Partial css
+@import 'reset';
+@import 'message';
+
+nav {
+  ul {
+    margin: 0;
+    padding: $padding;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: $padding 12px;
+    text-decoration: none;
+  }
+}
+
+body {
+  background-color: $primary-color;
+}
+
+.box{
+  @include border-radius(8px);
+  background-color: $primary-color;
+}
+
+
